@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshya Sharma - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f0f2f5, #d9e2ec);
+      color: #2e2e2e;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: linear-gradient(to right, #b2fefa, #0ed2f7);
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: #003049;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #001f2d;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #003049;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #cce3f2;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background: #001f2d;
+      color: white;
+      font-size: 0.95rem;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Lakshya Sharma</h1>
+    <p>BBA in Digital Business and Entrepreneurship</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi! I'm Lakshya Sharma, enthusiastic about digital innovation and business strategy, and currently working on entrepreneurial projects.</p>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+      <p><strong>BBA in Digital Business and Entrepreneurship</strong><br>IIM Bangalore<br>Expected Graduation: 2027</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="card">
+      <p>Working experience with Forever Living Products. Skilled in real-world applications of digital entrepreneurship.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <p>Skilled in video editing, photo editing, and proficient in using Canva for creative tasks and branding visuals.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="card">
+      <p>Currently working on <strong>YourMate</strong>, a startup focused on selling premium notebooks at affordable prices.</p>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Contact</h3>
+    <p>Email: slakshya182006@gmail.com</p>
+  </footer>
+</body>
+</html>
